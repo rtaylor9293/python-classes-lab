@@ -41,7 +41,7 @@ class Game():
                 self.switch_turns()
                 break
             else: 
-                print('Shell shocked!  Invalid move you goober.  Try again.')
+                print('Oh no!  Invalid move.  Try again.')
                 self.print_message()
 
     def switch_turns(self):
